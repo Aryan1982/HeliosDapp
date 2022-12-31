@@ -31,7 +31,7 @@ const Example = () => {
         onError={handleError}
         onScan={handleScan}
       /><br/><br/><br/><br/>
-      <a href={result}>{result}</p>
+      <a href={result}>{result}</a>
     </>
   );
 };

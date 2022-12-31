@@ -1,39 +1,39 @@
-import './App.css';
-import {useEffect,useState} from 'react'
-import QrReader from 'react-web-qr-reader';
+import React, {
+  useState
+} from "react";
+import QrReader from "react-web-qr-reader";
 
-
-function App() {
+const Example = () => {
   const delay = 500;
 
   const previewStyle = {
     height: 240,
-    width: 320,
+    width: 320
   };
 
-  const [result, setResult] = useState('No result');
+  const [result, setResult] = useState("Scan any QR");
 
   const handleScan = (result) => {
     if (result) {
-      setResult(result);
+      setResult(result.data);
     }
   };
 
   const handleError = (error) => {
     console.log(error);
   };
+
   return (
     <>
       <QrReader
         delay={delay}
         style={previewStyle}
-        // onError={handleError}
+        onError={handleError}
         onScan={handleScan}
       /><br/><br/><br/><br/>
-      <a href={result}>{result}</a>
+      <a href={result}>{result}</p>
     </>
+  );
+};
 
-     );
-}
-
-export default App;
+export default Example;

@@ -27,10 +27,10 @@ function App() {
       <QrReader
         delay={delay}
         style={previewStyle}
-        onError={handleError}
+        // onError={handleError}
         onScan={handleScan}
       /><br/><br/><br/><br/>
-      <p>{result}</p>
+      <a href={result}>{result}</a>
     </>
 
      );

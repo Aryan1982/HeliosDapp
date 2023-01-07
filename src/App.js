@@ -37,6 +37,7 @@
 // };
 
 // export default Example;
+import './App.css'
 import Hacknitr from './components/hacknitr'
 const App=()=>{
   return(

@@ -37,11 +37,14 @@
 // };
 
 // export default Example;
-import './App.css'
-import Hacknitr from './components/hacknitr'
+// import './App.css'
+// import Hacknitr from './components/hacknitr'
+import Footer from "./components/footer"
 const App=()=>{
   return(
-      <Hacknitr/>
+     <div>
+     <Footer/>
+     </div>
     );
 }
 

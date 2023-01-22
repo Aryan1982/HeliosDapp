@@ -1,0 +1,64 @@
+.FooterDiv{
+	border:2px solid black;
+	position: absolute;
+	height: 40vh;
+	width: 100%;
+	bottom:0px;
+	display: flex;
+	justify-content: space-between;
+	justify-content: space-around;
+	flex-direction: ;
+	align-items: center;
+}
+.SVITlogo{
+	width:20vh;
+	position: relative;
+}
+
+.logo{
+	border-radius: 50%;
+	background: none;
+	width:5.5vh;
+	margin: 1.5vh;
+	transition: 0.20s;
+}
+
+.MidSection{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.Social_Media_icons_div{
+	display: flex;
+	justify-content: space-between;
+
+}
+
+.logo:hover{
+	transform: scale(1.4);
+	transition: 0.20s;
+	box-shadow: -3px 3px 5px #888888;
+}
+
+.pin{
+	width: 3vh;
+}
+.locationdiv{
+	width: 30vh;
+	display: flex;
+	align-items: center;
+}
+.link{
+	text-decoration: ;
+	color: black;
+}
+
+
+@media (max-width: 640px) { 
+	.FooterDiv{
+		flex-direction: column;
+		height: 45vh;
+	}
+}

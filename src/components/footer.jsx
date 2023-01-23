@@ -1,5 +1,5 @@
 import "./footer.css"
-import SVITlogo from './social_mediaIcns/svitlogo.jfif'
+import SVITlogo from './social_mediaIcns/svitlogo.png'
 import instagram from './social_mediaIcns/instagram.png'
 import linkedin from './social_mediaIcns/linkedin.png'
 import youtube from './social_mediaIcns/youtube.png'

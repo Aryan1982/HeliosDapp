@@ -42,7 +42,7 @@ const Hacknitr = () => {
   </div>}
     <img className="heroimg" src={hero}/>
     {visible && <div><button onClick={toggleShow} className="signinbtn">SignIn</button>
-    <button className="Loginbtn" onClick={toggleShow}>LogIn</button></div>}
+    <button className="Loginbtn" onClick={toggleShow}>LogIn</button> </div>}
     {show && <div><button onClick={showuploadoptions} className="signinbtn">Upload</button></div>}
     {ShowUploadOptions && <UploadFile/>}
     </div>
